@@ -1,0 +1,2 @@
+# Commoncss
+Common CSS is most common style your are use offen e.g: font-size, font-align, header font-size, div align, main div : 100% etc. Common CSS developed by Md.Shahriar Hosen. He is an web Developer. when he Design website, some CSS roule offen wright every project, one day he think Wright a CSS for Common style that ar Common CSS. so you not write some common css not need wright just link The Common CSS Your html document. Thanks
