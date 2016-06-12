@@ -1,0 +1,1165 @@
+/*! commoncss  v0.1 | License Free | https://shahriar.tk/ 
+	Author : Md.Shahriar Hosen;
+	Email: shahriarmurolcse@gmail.com;
+*/
+/* ======================Web Browser CSS Reset =============== */
+html, body {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+div,header, nav, section, article, aside, footer {
+	display: block;
+	overflow: hidden;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+ul,ol {
+	margin: 0;
+	padding: 0;
+}
+/* ============================== for all element reset ===================== */
+html {
+    font-size:100%;
+    -moz-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;/* not support */
+    -ms-text-size-adjust:100%;/* not support */
+    -o-text-size-adjust:100%;/* not support */
+}
+body {
+	width: 100%;
+	font-size: 1em;
+	position: relative;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	color: #000;
+  	/*background: url("../images/techno_parten.gif") repeat scroll 0 0; */
+  	 background: #DDDDDD; 
+  	 /*padding-right: 15px;
+  	 padding-right: 15px;*/
+}
+/*--------------------------------- Layout Style----------------------- */
+.container-box {
+	width: 100%; /* for responsive */
+	/* width: 1170px; */ /*for fix width*/  
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* =========== overflow and clear and display ============ */
+.overflow-hiden {
+    overflow: hidden;
+}
+.clear-both {
+    clear: both;
+}
+.display-none {
+    display: none;
+}
+.display-visible {
+	display: visible;
+}
+.display-inline {
+    display: inline;
+}
+.display-inline-block {
+    display: none;
+}
+.display-blok {
+    display: block;
+}
+/* ================= Box Alignment Style ============ */
+.left {
+    float: left !important;
+}
+.right {
+    float: right !important;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+/* =================== padding ========================*/
+.padding-1 {
+	padding: 1px;
+}
+.padding-2 {
+	padding: 2px;
+}
+.padding-3 {
+	padding: 3px;
+}
+.padding-4 {
+	padding: 4px;
+}
+.padding-5 {
+	padding: 5px;
+}
+.padding-6 {
+	padding: 6px;
+}
+.padding-7 {
+	padding: 7px;
+}
+.padding-8 {
+	padding: 8px;
+}
+.padding-9 {
+	padding: 9px;
+}
+.padding-10 {
+	padding: 10px;
+}
+.padding-11 {
+	padding: 11px;
+}
+.padding-12 {
+	padding: 12px;
+}
+.padding-13 {
+	padding: 13px;
+}
+.padding-14 {
+	padding: 10px;
+}
+.padding-15 {
+	padding: 10px;
+}
+.padding-16 {
+	padding: 10px;
+}
+.padding-17 {
+	padding: 10px;
+}
+.padding-18 {
+	padding: 10px;
+}
+.padding-19 {
+	padding: 10px;
+}
+.padding-20 {
+	padding: 20px;
+}
+.padding-21 {
+	padding: 21px;
+}
+.padding-22 {
+	padding: 25px;
+}
+.padding-23 {
+	padding: 23px;
+}
+.padding-24 {
+	padding: 24px;
+}
+.padding-25 {
+	padding: 25px;
+}
+.padding-26 {
+	padding: 26px;
+}
+.padding-27 {
+	padding: 27px;
+}
+.padding-28 {
+	padding: 28px;
+}
+.padding-29 {
+	padding: 29px;
+}
+.padding-30 {
+	padding: 30px;
+}
+.padding-31 {
+	padding: 31px;
+}
+.padding-32 {
+	padding: 33px;
+}
+.padding-33 {
+	padding: 33px;
+}
+.padding-34 {
+	padding: 34px;
+}
+.padding-35 {
+	padding: 35px;
+}
+.padding-36 {
+	padding: 36px;
+}
+.padding-37 {
+	padding: 36px;
+}
+.padding-38 {
+	padding: 38px;
+}
+.padding-39 {
+	padding: 39px;
+}
+.padding-40 {
+	padding: 30px;
+}
+/* ======== padding left ==========*/
+.padding-left-1 {
+	padding-left: 1px
+}
+.padding-left-2 {
+	padding-left: 2px
+}
+.padding-left-3 {
+	padding-left: 3px
+}
+.padding-left-4 {
+	padding-left: 4px
+}
+.padding-left-5 {
+	padding-left: 5px
+}
+.padding-left-6 {
+	padding-left: 4px
+}
+.padding-left-7 {
+	padding-left: 7px
+}
+.padding-left-8 {
+	padding-left: 8px
+}
+.padding-left-9 {
+	padding-left: 4px
+}
+.padding-left-10 {
+	padding-left: 4px
+}
+.padding-left-11 {
+	padding-left: 11px
+}
+.padding-left-12 {
+	padding-left: 12px
+}
+.padding-left-13 {
+	padding-left: 13px
+}
+.padding-left-14 {
+	padding-left: 14px
+}
+.padding-left-15 {
+	padding-left: 4px
+}
+.padding-left-16 {
+	padding-left: 16px
+}
+.padding-left-17 {
+	padding-left: 17px
+}
+.padding-left-18 {
+	padding-left: 18px
+}
+.padding-left-19 {
+	padding-left: 19px
+}
+.padding-left-20 {
+	padding-left: 20px
+}
+.padding-left-21 {
+	padding-left:21px
+}
+.padding-left-22 {
+	padding-left:22px
+}
+.padding-left-23 {
+	padding-left:23px
+}
+.padding-left-24 {
+	padding-left:24px
+}
+.padding-left-25 {
+	padding-left:25px
+}
+.padding-left-26 {
+	padding-left:26px
+}
+.padding-left-27 {
+	padding-left:27px
+}
+.padding-left-28 {
+	padding-left:28px
+}
+.padding-left-29 {
+	padding-left:29px
+}
+.padding-left-29 {
+	padding-left:29px
+}
+.padding-left-30 {
+	padding-left:30px
+}
+.padding-left-31 {
+	padding-left:31px
+}
+.padding-left-32 {
+	padding-left:32px
+}
+.padding-left-33 {
+	padding-left:33px
+}
+.padding-left-34 {
+	padding-left:34px
+}
+.padding-left-35 {
+	padding-left:35px
+}
+.padding-left-36 {
+	padding-left:36px
+}
+.padding-left-37 {
+	padding-left:37px
+}
+.padding-left-38 {
+	padding-left:38px
+}
+.padding-left-39 {
+	padding-left:39px
+}
+.padding-left-40 {
+	padding-left:21px
+}
+.padding-left-41 {
+	padding-left:41px
+}
+.padding-left-42 {
+	padding-left:1px
+}.padding-left-42 {
+	padding-left:21px
+}
+.padding-left-43 {
+	padding-left:43px
+}
+.padding-left-44 {
+	padding-left:44px
+}
+.padding-left-45 {
+	padding-left:45px
+}
+.padding-left-46 {
+	padding-left:46px
+}
+.padding-left-47 {
+	padding-left:47px
+}
+.padding-left-48 {
+	padding-left:48px
+}
+
+.padding-left-49 {
+	padding-left:49px
+}
+.padding-left-50 {
+	padding-left:50px
+}
+/* ======== padding right ==========*/
+.padding-right-1{
+	padding-right: 1px;
+}
+.padding-right-2{
+	padding-right: 2px;
+}
+.padding-right-3{
+	padding-right: 3px;
+}
+.padding-right-4{
+	padding-right: 4px;
+}
+.padding-right-5{
+	padding-right: 5px;
+}
+.padding-right-6{
+	padding-right: 6px;
+}
+.padding-right-7{
+	padding-right: 7px;
+}
+.padding-right-8{
+	padding-right: 8px;
+}
+.padding-right-9{
+	padding-right: 9px;
+}.padding-right-10{
+	padding-right: 10px;
+}
+.padding-right-11{
+	padding-right: 11px;
+}
+.padding-right-12{
+	padding-right: 12px;
+}
+.padding-right-13{
+	padding-right: 13px;
+}
+.padding-right-14{
+	padding-right: 14px;
+}
+.padding-right-15{
+	padding-right: 15px;
+}
+.padding-right-16{
+	padding-right: 16px;
+}
+.padding-right-17{
+	padding-right: 17px;
+}
+.padding-right-18{
+	padding-right: 18px;
+}
+.padding-right-19{
+	padding-right: 19px;
+}.padding-right-20{
+	padding-right: 20px;
+}
+.padding-right-21{
+	padding-right: 21px;
+}
+.padding-right-22{
+	padding-right: 22px;
+}
+.padding-right-23{
+	padding-right: 23px;
+}
+.padding-right-24{
+	padding-right: 24px;
+}
+.padding-right-25{
+	padding-right: 25px;
+}
+.padding-right-26{
+	padding-right: 26px;
+}
+.padding-right-27{
+	padding-right: 27px;
+}
+.padding-right-28{
+	padding-right: 28px;
+}
+.padding-right-29{
+	padding-right: 29px;
+}.padding-right-30{
+	padding-right: 30px;
+}
+.padding-right-31{
+	padding-right: 31px;
+}
+.padding-right-32{
+	padding-right: 32px;
+}
+.padding-right-33{
+	padding-right: 33px;
+}
+.padding-right-34{
+	padding-right: 34px;
+}
+.padding-right-35{
+	padding-right: 1px;
+}
+.padding-right-36{
+	padding-right: 36px;
+}
+.padding-right-37{
+	padding-right: 37px;
+}
+.padding-right-38{
+	padding-right: 1px;
+}
+.padding-right-39{
+	padding-right: 39px;
+}
+.padding-right-40{
+	padding-right: 40px;
+}
+.padding-right-41{
+	padding-right: 41px;
+}
+.padding-right-42{
+	padding-right: 42px;
+}
+.padding-right-43{
+	padding-right: 43px;
+}
+.padding-right-44{
+	padding-right: 44px;
+}
+.padding-right-45{
+	padding-right: 45px;
+}
+.padding-right-46{
+	padding-right: 46px;
+}
+.padding-right-47{
+	padding-right: 47px;
+}
+.padding-right-48{
+	padding-right: 48px;
+}
+.padding-right-49{
+	padding-right: 49px;
+}
+.padding-right-50{
+	padding-right: 50px;
+}
+/*
+/*================ margin =================*/
+.margin-1 {
+	margin: 1px;
+}
+.margin-2 {
+	margin: 2px;
+}
+.margin-3 {
+	margin: 3px;
+}
+.margin-4 {
+	margin: 4px;
+}
+.margin-5 {
+	margin: 5px;
+}
+.margin-6 {
+	margin: 6px;
+}
+.margin-7 {
+	margin: 7px;
+}
+.margin-8 {
+	margin: 8px;
+}
+.margin-9 {
+	margin: 9px;
+}
+.margin-10 {
+	margin: 10px;
+}
+.margin-11 {
+	margin: 11px;
+}
+.margin-12 {
+	margin: 12px;
+}
+.margin-13 {
+	margin: 13px;
+}
+.margin-14 {
+	margin: 14px;
+}
+.margin-15 {
+	margin: 15px;
+}
+.margin-16 {
+	margin: 16px;
+}
+.margin-17 {
+	margin: 17px;
+}
+.margin-18 {
+	margin: 18px;
+}
+.margin-19 {
+	margin: 19px;
+}
+.margin-20 {
+	margin: 20px;
+}
+.margin-21 {
+	margin: 21px;
+}
+.margin-22 {
+	margin: 22px;
+}
+.margin-23 {
+	margin: 23px;
+}
+.margin-24 {
+	margin: 24px;
+}
+.margin-25 {
+	margin: 25px;
+}
+.margin-26 {
+	margin: 26px;
+}
+.margin-27 {
+	margin: 27px;
+}
+.margin-28 {
+	margin: 28px;
+}
+.margin-29 {
+	margin: 29px;
+}
+.margin-30 {
+	margin: 30px;
+}
+.margin-31 {
+	margin: 31px;
+}
+.margin-32 {
+	margin: 32px;
+}
+.margin-33 {
+	margin: 33px;
+}
+.margin-34 {
+	margin: 34px;
+}
+.margin-35 {
+	margin: 35px;
+}
+.margin-36 {
+	margin: 36px;
+}
+.margin-37 {
+	margin: 37px;
+}
+.margin-38 {
+	margin: 38px;
+}
+.margin-39 {
+	margin: 39px;
+}
+.margin-40 {
+	margin: 40px;
+}
+.margin-41 {
+	margin: 41px;
+}
+.margin-42 {
+	margin: 42px;
+}
+.margin-43 {
+	margin: 43px;
+}
+.margin-44 {
+	margin: 44px;
+}
+.margin-45 {
+	margin: 45px;
+}
+.margin-46 {
+	margin: 46px;
+}
+.margin-47 {
+	margin: 47px;
+}
+.margin-48 {
+	margin: 48px;
+}
+.margin-49 {
+	margin: 49px;
+}
+.margin-50 {
+	margin: 1px;
+}
+/*================ margin left =================*/
+.margin-left-1 {
+	margin-left: 1px;
+}
+.margin-left-2 {
+	margin-left: 2px;
+}
+.margin-left-3 {
+	margin-left: 3px;
+}
+.margin-left-4 {
+	margin-left: 4px;
+}
+.margin-left-5 {
+	margin-left: 5px;
+}
+.margin-left-6 {
+	margin-left: 6px;
+}
+.margin-left-7 {
+	margin-left: 7px;
+}
+.margin-left-8 {
+	margin-left: 8px;
+}
+.margin-left-9 {
+	margin-left: 9px;
+}
+.margin-left-10 {
+	margin-left: 10px;
+}
+.margin-left-11 {
+	margin-left: 11px;
+}
+.margin-left-12 {
+	margin-left: 12px;
+}
+.margin-left-13 {
+	margin-left: 13px;
+}
+.margin-left-14 {
+	margin-left: 14px;
+}
+.margin-left-15 {
+	margin-left: 15px;
+}
+.margin-left-16 {
+	margin-left: 16px;
+}
+.margin-left-17 {
+	margin-left: 17px;
+}
+.margin-left-18 {
+	margin-left: 18px;
+}
+.margin-left-19 {
+	margin-left: 19px;
+}
+.margin-left-20 {
+	margin-left: 20px;
+}
+.margin-left-21 {
+	margin-left: 21px;
+}
+.margin-left-22 {
+	margin-left: 22px;
+}
+.margin-left-23 {
+	margin-left: 23px;
+}
+.margin-left-24 {
+	margin-left: 24px;
+}
+.margin-left-25 {
+	margin-left: 25px;
+}
+.margin-left-26 {
+	margin-left: 26px;
+}
+.margin-left-27 {
+	margin-left: 27px;
+}
+.margin-left-28 {
+	margin-left: 28px;
+}
+.margin-left-29 {
+	margin-left: 29px;
+}
+.margin-left-30 {
+	margin-left: 30px;
+}
+.margin-left-31 {
+	margin-left: 31px;
+}
+.margin-left-32 {
+	margin-left: 32px;
+}
+.margin-left-33 {
+	margin-left: 33px;
+}
+.margin-left-34 {
+	margin-left: 34px;
+}
+.margin-left-35 {
+	margin-left: 35px;
+}
+.margin-left-36 {
+	margin-left: 36px;
+}
+.margin-left-37 {
+	margin-left: 37px;
+}
+.margin-left-38 {
+	margin-left: 38px;
+}
+.margin-left-39 {
+	margin-left: 39px;
+}
+.margin-left-40 {
+	margin-left: 40px;
+}
+.margin-left-41 {
+	margin-left: 41px;
+}
+.margin-left-42 {
+	margin-left: 42px;
+}
+.margin-left-43 {
+	margin-left: 43px;
+}
+.margin-left-44 {
+	margin-left: 44px;
+}
+.margin-left-45 {
+	margin-left: 45px;
+}
+.margin-left-46 {
+	margin-left: 46px;
+}
+.margin-left-47 {
+	margin-left: 47px;
+}
+.margin-left-48 {
+	margin-left: 48px;
+}
+.margin-left-49 {
+	margin-left: 49px;
+}
+.margin-left-50 {
+	margin-left: 50px;
+}
+/*================ margin right =================*/
+.margin-right-1 {
+	margin-right: 1px;
+}
+.margin-right-2 {
+	margin-right: 2px;
+}
+.margin-right-3 {
+	margin-right: 3px;
+}
+.margin-right-4 {
+	margin-right: 4px;
+}
+.margin-right-5 {
+	margin-right:5px;
+}
+.margin-right-6 {
+	margin-right: 6px;
+}
+.margin-right-7 {
+	margin-right: 7px;
+}
+.margin-right-8 {
+	margin-right: 8px;
+}
+.margin-right-9 {
+	margin-right: 9px;
+}
+.margin-right-10 {
+	margin-right: 10px;
+}
+.margin-right-11 {
+	margin-right: 11px;
+}
+.margin-right-12 {
+	margin-right: 12px;
+}
+.margin-right-13 {
+	margin-right: 13px;
+}
+.margin-right-14 {
+	margin-right: 14px;
+}
+.margin-right-15 {
+	margin-right: 15px;
+}
+.margin-right-16 {
+	margin-right: 16px;
+}
+.margin-right-17 {
+	margin-right: 17px;
+}
+.margin-right-18 {
+	margin-right: 18px;
+}
+.margin-right-19 {
+	margin-right: 19px;
+}
+.margin-right-20 {
+	margin-right: 21px;
+}
+.margin-right-22 {
+	margin-right: 22px;
+}
+.margin-right-23 {
+	margin-right: 23px;
+}
+.margin-right-24 {
+	margin-right: 24px;
+}
+.margin-right-25 {
+	margin-right: 25px;
+}
+.margin-right-26 {
+	margin-right: 26px;
+}
+.margin-right-27 {
+	margin-right: 27px;
+}
+.margin-right-28 {
+	margin-right: 28px;
+}
+.margin-right-29 {
+	margin-right: 29px;
+}
+.margin-right-30 {
+	margin-right: 30px;
+}
+.margin-right-31 {
+	margin-right: 31px;
+}
+.margin-right-32 {
+	margin-right: 32px;
+}
+.margin-right-33 {
+	margin-right: 33px;
+}
+.margin-right-34 {
+	margin-right: 34px;
+}
+.margin-right-35 {
+	margin-right: 35px;
+}
+.margin-right-36 {
+	margin-right: 36px;
+}
+.margin-right-37 {
+	margin-right: 37px;
+}
+.margin-right-38 {
+	margin-right: 38px;
+}
+.margin-right-39 {
+	margin-right: 39px;
+}
+.margin-right-40 {
+	margin-right: 40px;
+}
+.margin-right-41 {
+	margin-right: 41px;
+}
+.margin-right-42 {
+	margin-right: 42px;
+}
+.margin-right-43 {
+	margin-right: 43px;
+}
+.margin-right-44 {
+	margin-right: 44px;
+}
+.margin-right-45{
+	margin-right: 45px;
+}
+.margin-right-46 {
+	margin-right: 46px;
+}
+.margin-right-47 {
+	margin-right: 47px;
+}
+.margin-right-48 {
+	margin-right: 48px;
+}
+.margin-right-49 {
+	margin-right: 49px;
+}
+.margin-right-50 {
+	margin-right: 50px;
+}
+/* =================== Text Alignment Style ===========*/
+.txt-left {
+    /*left is dafult*/
+    text-align: left;
+}
+.txt-right {
+    text-align: right;
+}
+.txt-justify {
+    text-align: justify;
+}
+.txt-center {
+    text-align: center;
+}
+/*------------ Text Formating---------------*/
+.txt-lowercase {text-transform: lowercase;}
+.txt-uppercase {text-transform: uppercase;}
+.txt-capitalize {text-transform:capitalize;}
+.txt-weight-bold {font-weight: bold;}
+.txt-weight-normal {font-weight: normal;}
+.txt-italic {font-style: italic;}
+/*-----------------------------------------HTML Element Style---------------------------*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-weight:bold;
+    margin: 5px 0;
+    line-height: 1.1;
+    /* test */
+    text-shadow: 1px 1px 1px #000; 
+}
+h1{
+    font-size: 1.4em;
+}
+h2{
+    font-size: 1.3em;
+}
+h3{
+    font-size: 1.2em;
+}
+h4{
+	font-size: 1.1em;
+}
+h5{
+    font-size:1em;
+}
+h6{
+    font-size:0.9em;
+}
+hr{
+    margin-top: 20px;
+  	margin-bottom: 20px;
+  	border: 0;
+  	border-top: 1px solid #eee;
+}
+p{
+   color: #111;
+    font-size: 1em;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    font-style: normal;
+  	letter-spacing:1px;
+  	line-height:32px; 
+    margin: 5px 0;
+}
+/* ============= table style ============ */
+.table-style th {
+	text-align: center;
+	padding: 8px;
+	background-color:#FF6600;
+    color:#fff;
+}
+.table-style td {
+    text-align: left;  
+    padding: 8px;
+}
+.table-style tr:nth-child(even){background-color:#ddd;}
+.table-style tr:nth-child(odd){background-color:#47B39D;}
+.table-style tr:hover {
+    background:#DDEEFF;
+}
+/* ========================== images ===============================*/
+img {
+    vertical-align: middle;
+    display:inline-block;
+    max-width: 100%;
+    height: auto;
+    opacity:1;
+}
+.img {
+    vertical-align: middle;
+    display:inline-block;
+    max-width: 95%;
+    height: auto;
+    line-height: normal;
+    border: 1px solid #DDDDDD;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius: 4px;
+    padding: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    opacity:1;
+} 
+.img:hover {
+	opacity: 0.8;
+}
+/* ================ fade ===============*/
+.fade {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+.fade:hover { /* it's wgiht */
+      opacity: 0.8; 
+}
+/* =================== list style ==============*/ 
+ul {
+	list-style: none;
+}
+.list-style-type-number {
+    list-style-type:decimal;
+    list-style-position: inside;
+}
+.list-style-type-lower-alpha {
+    list-style-type:lower-alpha;
+    list-style-position: inside;
+}
+.list-style-type-upper-alpha {
+    list-style-type:upper-alpha;
+    list-style-position: inside;
+}
+.list-style-type-lower-roman {
+    list-style-type:lower-roman;
+    list-style-position: inside;
+}
+.list-style-type-upper-roman {
+    list-style-type:upper-roman;
+    /*list-style-type:none;*/
+    list-style-position: inside;
+}
+/* ==================== iframe ========================== */
+iframe {
+    width: 99%; /* 1% reduse for 4px padding */
+    min-height: 315px;
+    border: 1px solid #ddd;
+    padding: 4px;
+    border-radius: 5px;
+}
+/* ========================== link ==================== */
+a {
+    text-decoration: none;
+    color: #1e79a7;
+}
+a:hover {
+    color: #ff0084;
+}
+/* ======================== Responsive Style =========================== */
+@media only screen and (max-width:1600px) { /* priority last */
+}
+@media only screen and (max-width:1600px) { 
+}
+/*  Desktop : (1366px)  */ 
+@media only screen and (max-width:1366px) {
+}
+/* Desktop : Notebook (1280px) */ 
+@media only screen and (max-width:1200px) {
+}
+/* Medium Device : Notebook (1024px) */ 
+@media only screen and (max-width:1024px) { /* 844 + 180(15x12) = 1024 */
+}
+/* Tablate Style */
+@media only screen and (max-width:768px) { 
+}
+/* ========== smart phone style ============= */
+@media only screen and (max-width:480px) {
+}
+@media only screen and (min-width:320px) { /* priority first */
+}
+/* ================ primery txt color ===================== */
+.txt-red {color: red;}
+.txt-green {color: green;}
+.txt-blue {color: blue;}
+.txt-orange {color: orange;}
+.txt-yellow {color: yellow;}
+.txt-cyan {color: cyan;}
+.txt-black {color: black;}
+.txt-white {color: #FFFFFF;}
+/* ============================== primery background color =================*/
+.bg-red {background: red;} 
+.bg-green {background: green;}
+.bg-blue {background: blue;}
+.bg-orange {background: orange;}
+.bg-yellow {background: yellow;}
+.bg-cyan {background: cyan;}
+.bg-black {background: black;}
+.bd-gray {background: #DDDDDD;}
+.bg-white {background: #FFFFFF;}
